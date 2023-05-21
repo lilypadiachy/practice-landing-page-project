@@ -1,0 +1,154 @@
+      h1 {
+        color: #d7dddd;
+        font-family: "Inter";
+        text-align: center;
+      }
+      strong {
+        color: #000;
+      }
+      h2 {
+        font-family: "Inter";
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        margin: 0 15px;
+      }
+      .instagram {
+        color: #000;
+      }
+      .github {
+        color: #000;
+      }
+      .linkedin {
+        color: #000;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2% 5%;
+      }
+      .row2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2% 5%;
+      }
+      .row .column1 {
+        padding-right: 80px;
+      }
+      .column1 h1 {
+        margin-bottom: 10px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      .column1 p {
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .column1 button {
+        display: block;
+        margin: 0 auto;
+        line-height: 3;
+        padding: 0 30px;
+        font-size: 13px;
+        color: #000;
+        background: radial-gradient(
+          circle at 18.7% 37.8%,
+          rgb(250, 250, 250) 0%,
+          rgb(225, 234, 238) 90%
+        );
+        border-radius: 20px;
+        border: 1px solid #000;
+        border-color: white;
+        transition: all 200ms ease-in-out;
+        font-family: "Inter";
+      }
+      .column1 button:hover {
+        border: 1px solid #000;
+        cursor: pointer;
+      }
+
+      @media screen and (min-width: 799px) {
+        .row {
+          margin-top: 30px;
+        }
+        .column2 img {
+          display: block;
+          padding-right: 30px;
+          max-width: 100%;
+        }
+        .column3 img {
+          display: block;
+          padding-left: 30px;
+          max-width: 100%;
+        }
+        .column4 img {
+          display: block;
+          padding-left: 30px;
+          max-width: 100%;
+        }
+        .column5 img {
+          display: block;
+          padding-left: 30px;
+          max-width: 100%;
+        }
+        .column6 img {
+          display: block;
+
+          padding-left: 30px;
+          max-width: 100%;
+        }
+        .column1 h1 {
+          font-size: 40px;
+        }
+        .column1 p {
+          font-size: 20px;
+          font-family: "Inter";
+        }
+      }
+      @media screen and (max-width: 800px) {
+        .row {
+          flex-direction: column;
+          padding: 30px;
+          margin-top: 30px;
+        }
+        .row2 {
+          flex-direction: column;
+          padding: 30px;
+          margin-top: 30px;
+        }
+        .row .column1 {
+          padding: 30px;
+        }
+        .column1 h1 {
+          font-size: 50px;
+        }
+        .column1 p {
+          font-size: 20px;
+          font-family: "Inter";
+        }
+      }
+      h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        padding: 30px;
+        margin: 30px;
+      }
+      h4 {
+        font-family: "Inter";
+        font-weight: 450;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+      }
